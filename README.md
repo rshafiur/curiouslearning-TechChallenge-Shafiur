@@ -56,3 +56,10 @@ Acceptance Criteria:
 Given that I am viewing the scene,
 When I touch the button,
 Then the button will animate and play a sound and after the sound plays the machine will choose 1 of 3 fun things to display.
+
+========================
+Solutions will be evaluated on the following criteria:
+ * Modular and data driven design
+ * Readability of code
+ * Four separate functional scenes that meet requirements and show creativity
+
