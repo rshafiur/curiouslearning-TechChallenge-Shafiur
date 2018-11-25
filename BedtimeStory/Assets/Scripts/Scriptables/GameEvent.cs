@@ -15,22 +15,6 @@ public class GameEvent : ScriptableObject {
         }
     }
 
-    public void GameOver()
-    {
-        for (int i = 0; i < gameEventListeners.Count; i++)
-        {
-            gameEventListeners[i].OnEventGameOver();
-        }
-    }
-
-    public void ButtonClick()
-    {
-        for (int i = 0; i < gameEventListeners.Count; i++)
-        {
-            gameEventListeners[i].OnEventButtonClick();
-        }
-    }
-
     public void Register(GameEventListener listener)
     {
         if (!gameEventListeners.Contains(listener))

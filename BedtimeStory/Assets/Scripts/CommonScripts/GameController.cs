@@ -7,6 +7,12 @@ public class GameController : MonoBehaviour {
 
     public void GameOver()
     {
+        //Show level complete UI text
+        Invoke("LoadNextScene", 1.0f);
+    }
+
+    private void LoadNextScene()
+    {
         if (SceneManager.GetActiveScene().buildIndex >= SceneManager.sceneCountInBuildSettings)
             return;
         else

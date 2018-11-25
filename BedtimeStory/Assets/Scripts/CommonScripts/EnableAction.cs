@@ -11,4 +11,14 @@ public class EnableAction : MonoBehaviour {
     {
         SwitchTurnEvent.Raise();
     }
+
+    public void DisableObjectWithDelay()
+    {
+        Invoke("DisableObject", 0.5f);
+    }
+
+    private void DisableObject()
+    {
+        Destroy(this.gameObject);
+    }
 }

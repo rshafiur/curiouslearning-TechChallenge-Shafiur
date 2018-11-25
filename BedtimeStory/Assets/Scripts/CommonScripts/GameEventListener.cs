@@ -21,13 +21,4 @@ public class GameEventListener : MonoBehaviour {
         Response.Invoke();
     }
 
-    public void OnEventGameOver()
-    {
-        Response.Invoke();
-    }
-
-    public void OnEventButtonClick()
-    {
-        Response.Invoke();
-    }
 }

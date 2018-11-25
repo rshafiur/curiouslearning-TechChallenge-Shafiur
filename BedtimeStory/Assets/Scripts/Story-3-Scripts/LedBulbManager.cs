@@ -7,7 +7,7 @@ public class LedBulbManager : MonoBehaviour {
     public LedBulb[] ledBulbs;
     private int ledNumber;
 
-    public GameEvent SwitchTurnEvent;
+    public GameEvent gameEvent;
 
     // Use this for initialization
     void Start () {
@@ -19,14 +19,13 @@ public class LedBulbManager : MonoBehaviour {
     {
         if (ledBulbs.Length < ledNumber)
             return;
-        else if (ledBulbs.Length == ledNumber)
-        {
-            SwitchTurnEvent.Raise();
-        }
+
         else
         {
             ledBulbs[ledNumber].SpriteChange();
             ledNumber += 1;
+            if (ledBulbs.Length == ledNumber)
+                gameEvent.Raise();
         }
     }
 

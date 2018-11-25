@@ -9,5 +9,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f007688cc3606e4893590f41a820535, type: 3}
-  m_Name: GiftInstance
+  m_Name: PlayGame
   m_EditorClassIdentifier: 

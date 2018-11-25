@@ -17,5 +17,7 @@ MonoBehaviour:
   ObjectSoundEffects:
   - name: BulbOn
     clip: {fileID: 8300000, guid: fd7f0cd0f8263874dbeea89431e06a1c, type: 3}
+  - name: KnobOpen
+    clip: {fileID: 8300000, guid: 6f8e9e95bb058fa4aac6b26b2278bd09, type: 3}
   - name: DoorOpen
     clip: {fileID: 0}

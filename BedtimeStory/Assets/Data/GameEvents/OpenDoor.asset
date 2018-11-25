@@ -8,13 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0859215236fd8e643be2673547b0f445, type: 3}
-  m_Name: SoundEffect
+  m_Script: {fileID: 11500000, guid: 7f007688cc3606e4893590f41a820535, type: 3}
+  m_Name: OpenDoor
   m_EditorClassIdentifier: 
-  UISoundEffects:
-  - clip: {fileID: 0}
-    type: 
-  - clip: {fileID: 0}
-    type: 
-  weaponSoundEffects: []
-  environmentSoundEffects: []

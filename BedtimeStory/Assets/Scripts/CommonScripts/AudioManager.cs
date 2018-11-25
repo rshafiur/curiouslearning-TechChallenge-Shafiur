@@ -26,7 +26,12 @@ public class AudioManager : MonoBehaviour {
         source.PlayOneShot(soundList.ObjectSoundEffects[0].clip);
     }
 
-    public void DoorOpenkSound()
+    public void KnobOpenSound()
+    {
+        source.PlayOneShot(soundList.ObjectSoundEffects[1].clip);
+    }
+
+    public void DoorOpenSound()
     {
         source.PlayOneShot(soundList.ObjectSoundEffects[1].clip);
     }

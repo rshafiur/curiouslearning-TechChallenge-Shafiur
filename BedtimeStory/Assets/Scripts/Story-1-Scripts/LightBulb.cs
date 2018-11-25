@@ -8,8 +8,11 @@ public class LightBulb : MonoBehaviour {
 
     public Sprite bulbOnSprite;
 
+    public GameEvent gameOverEvent;
+
     public void SpriteChange()
     {
         GetComponent<Image>().sprite = bulbOnSprite;
+        gameOverEvent.Raise();
     }
 }
