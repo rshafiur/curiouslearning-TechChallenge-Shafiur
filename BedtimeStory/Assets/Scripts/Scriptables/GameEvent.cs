@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Game Event")]
+[CreateAssetMenu(menuName = "Curious Learning/Game Event")]
 public class GameEvent : ScriptableObject {
 
     List<GameEventListener> gameEventListeners = new List<GameEventListener>();
@@ -15,11 +15,19 @@ public class GameEvent : ScriptableObject {
         }
     }
 
-    public void LedTurnOn(int index)
+    public void GameOver()
     {
         for (int i = 0; i < gameEventListeners.Count; i++)
         {
-            gameEventListeners[i].OnEventRaised();
+            gameEventListeners[i].OnEventGameOver();
+        }
+    }
+
+    public void ButtonClick()
+    {
+        for (int i = 0; i < gameEventListeners.Count; i++)
+        {
+            gameEventListeners[i].OnEventButtonClick();
         }
     }
 

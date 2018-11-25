@@ -7,14 +7,17 @@ public class BackgroundLightEffect : MonoBehaviour {
 
     Image image;
 
+    public Color startColor;
+    public Color endColor;
+
 	// Use this for initialization
 	void Start () {
         image = GetComponent<Image>();
-        image.color = Color.black;
+        image.color = startColor;
 	}
 	
 	public void ChangeBackgroundToWhite()
     {
-        image.color = Color.white;
+        image.color = endColor;
     }
 }

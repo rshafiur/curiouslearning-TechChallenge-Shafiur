@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(Image))]
-public class LightBulb : MonoBehaviour {
+public class LedBulb : MonoBehaviour {
 
-    public Sprite bulbOnSprite;
-    public Sprite bulbOffSprite;
+    public Sprite ledOnSprite;
 
     public void SpriteChange()
     {
-        GetComponent<Image>().sprite = bulbOnSprite;
+        GetComponent<Image>().sprite = ledOnSprite;
     }
+
 }

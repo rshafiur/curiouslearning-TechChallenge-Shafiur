@@ -21,7 +21,12 @@ public class GameEventListener : MonoBehaviour {
         Response.Invoke();
     }
 
-    public void LedOn(int index)
+    public void OnEventGameOver()
+    {
+        Response.Invoke();
+    }
+
+    public void OnEventButtonClick()
     {
         Response.Invoke();
     }

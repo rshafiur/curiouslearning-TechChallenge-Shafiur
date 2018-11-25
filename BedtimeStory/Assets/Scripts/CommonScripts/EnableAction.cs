@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LedBulbSwitch : MonoBehaviour {
+public class EnableAction : MonoBehaviour {
 
     public GameEvent SwitchTurnEvent;
-    public int numberOfLed;
 
     public void Switch()
     {

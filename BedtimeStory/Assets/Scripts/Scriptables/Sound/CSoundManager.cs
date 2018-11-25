@@ -2,11 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulbStateHolder { 
+public class CSoundManager {
 
-    public enum BulbState
-    {
-        On,Off
-    }
-
+ 
 }
