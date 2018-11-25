@@ -1,9 +1,6 @@
 # curiouslearning-TechChallenge-Shafiur
 Curious Learning Tech Challenge task
 
-The Challenge
-During sprint planning, you have chosen to tackle the following task cards written for the upcoming sprint to test a new product concept:
-
 EPIC
 As a Product Owner,
 I want to be able to create a 2D interactive story application with 4 unique scenes,
